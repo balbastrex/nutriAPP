@@ -22,7 +22,9 @@
 </head>
 
 <body class="header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden login-page">
-    <div class="c-app flex-row align-items-center">
+    <div class="c-app flex-row align-items-center" style='background-image: url("https://as2.ftcdn.net/v2/jpg/03/20/58/31/1000_F_320583102_D5lHTeuFQjuo2Ic9u0wap32EoAjDr9Ru.jpg"); 
+        background-repeat: no-repeat;
+        background-size: cover;'>
         <div class="container">
             @yield("content")
         </div>

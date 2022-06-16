@@ -1,8 +1,9 @@
 @extends('layouts.app')
 @section('content')
-<div class="row justify-content-center">
+<div class="row justify-content-center" id='loginBackGround' >
     <div class="col-md-6">
-        <div class="card mx-4">
+        <div class="card mx-4" 
+        style='background-color:rgba(255, 255, 255, 0.5); border: none'>
             <div class="card-body p-4">
                 <h1>{{ trans('panel.site_title') }}</h1>
 
